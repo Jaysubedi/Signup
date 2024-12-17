@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp"
+    tools:context=".LoginPage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:text="Login Page"/>
+    <EditText
+        android:id="@+id/txt_email"
+
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        android:hint="Enter Email"/>
+    <EditText
+        android:id="@+id/txt_password"
+
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="30dp"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/black"
+        android:hint="Enter Password"/>
+    <EditText
+        android:id="@+id/txt_Cpassword"
+
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="30dp"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/black"
+        android:hint="Conform Password"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:text="Click me for Login"/>
+
+</LinearLayout>
